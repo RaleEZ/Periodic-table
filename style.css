@@ -3,27 +3,33 @@
 	padding: 0;
 	user-select: none;
 }
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
 table {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	inset: 0;
+	margin: auto;
 	empty-cells: show;
 	border-collapse: separate;
-	border-spacing: 10px 10px;
+	border-spacing: 12px 10px;
 }
 td {
 	border: 1px solid black;
 	border-radius: 5px;
+	padding: 5px 5px;
 }
 th {
-	font-size: 35px;
+	font-size: 25px;
 	font-family: "Source Sans Pro";
 	font-weight: 400;
 }
 span {
 	font-family: "Bell MT";
-	font-size: 50px;
+	font-size: 40px;
 	display: flex;
 	justify-content: center;
 }
